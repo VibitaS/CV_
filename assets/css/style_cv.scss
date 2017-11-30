@@ -1,0 +1,28 @@
+$bgcolor : #F1F1F1;
+body{
+  width: 100%;
+  height: auto;
+  background-color: $bgcolor;
+  .container-fluid{
+    .container{
+      .row{
+        width: 100%;
+        height: 100%;
+        .columnOne{
+          width: 40%;
+          border: 1px solid $bgcolor;
+          #photo{
+            img{
+              width: 150px;
+              height: auto;
+            }
+          }
+        }
+        .columnTwo{
+          width: 60%;
+          background-color: red;
+        }
+      }
+    }
+  }
+}
