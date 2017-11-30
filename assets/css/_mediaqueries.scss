@@ -12,7 +12,9 @@
 
 @mixin mmobile {
   @media (max-width: 420px) {
-    @content;
+    body{
+      display: block;
+    }
   }
 }
 

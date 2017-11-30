@@ -1,4 +1,11 @@
 /** IMPORT **/
+@font-face {
+  font-family: "Akurrat Regular";
+  src: url("assets/fonts/Akkurat-Regular.ttf"); }
+@font-face {
+  font-family: "Akkurat Bold";
+  font-weight: bold;
+  src: url("assets/fonts/Akkurat-Bold.otf"); }
 /** VARIBALES **/
 /** DEFINITION DU CSS */
 body {
@@ -10,19 +17,61 @@ body {
     height: 100%; }
     body .container-fluid .container .row .columnOne {
       width: 33.3%;
-      height: 500px;
+      height: auto;
       margin-right: 2em;
       box-shadow: 1px 2px 3px 4px #F1F1F1;
-      display: flex; }
-      body .container-fluid .container .row .columnOne #photo {
-        border: 1px solid #ffffff; }
-        body .container-fluid .container .row .columnOne #photo img {
-          width: 150px;
-          height: auto; }
+      /** Commun classes **/
+      /** Case by case **/ }
+      body .container-fluid .container .row .columnOne .strip {
+        width: 100%;
+        height: 50px;
+        background: #e4e4e4;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 2em;
+        padding-top: 10px; }
+      body .container-fluid .container .row .columnOne .content {
+        /* Green */ }
+        body .container-fluid .container .row .columnOne .content .container {
+          width: 100%;
+          /* Full width */
+          background-color: #ddd;
+          /* Grey background */ }
+        body .container-fluid .container .row .columnOne .content .skill {
+          text-align: right;
+          /* Right-align text */
+          padding-right: 20px;
+          /* Add some right padding */
+          line-height: 40px;
+          /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+          color: white;
+          /* White text color */ }
+        body .container-fluid .container .row .columnOne .content .html {
+          width: 90%;
+          background-color: #4CAF50; }
+      body .container-fluid .container .row .columnOne #ONE {
+        display: flex; }
+        body .container-fluid .container .row .columnOne #ONE #photo {
+          border: 1px solid #ffffff; }
+          body .container-fluid .container .row .columnOne #ONE #photo img {
+            width: 150px;
+            height: auto;
+            box-shadow: 1px 2px 3px 4px #9f9f9f; }
+        body .container-fluid .container .row .columnOne #ONE #name {
+          font-family: Helvetica,sans-serif;
+          color: #b5b5b5;
+          text-align: center;
+          margin-top: 5em; }
       body .container-fluid .container .row .columnOne #prez {
-        font-family: Arial,sans-serif; }
+        height: 200px; }
+      body .container-fluid .container .row .columnOne #skills {
+        height: 200px; }
+      body .container-fluid .container .row .columnOne #info {
+        height: 200px; }
     body .container-fluid .container .row .columnTwo {
-      width: 60%;
+      width: 70%;
       box-shadow: 1px 2px 3px 4px #F1F1F1;
       display: flex; }
 
