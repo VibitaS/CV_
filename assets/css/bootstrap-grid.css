@@ -34,8 +34,9 @@ html {
   #ONE img{
     display: none;
   }
-  #prez{
-    height: 400px;
+  #prez p{
+    font-size: 16px;
+    line-height: 18px;
   }
   .columnTwo{
     margin-top:1em;
