@@ -12,71 +12,73 @@ body {
   width: 100%;
   height: auto;
   background-color: #ffffff; }
-  body .container-fluid .container .row {
-    width: 100%;
-    height: 100%; }
-    body .container-fluid .container .row .columnOne {
-      height: auto;
-      margin-right: 2em;
-      box-shadow: 1px 2px 3px 4px #F1F1F1;
-      /** Classes communes **/
-      /** Cas par cas **/ }
-      body .container-fluid .container .row .columnOne .strip {
-        width: 100%;
-        height: 50px;
-        background: #e4e4e4;
-        text-align: center;
-        color: white;
-        font-weight: bold;
-        font-size: 20px;
-        margin-top: 1em;
-        padding-top: 10px; }
-      body .container-fluid .container .row .columnOne .content .container {
-        width: 100%;
-        background-color: #ddd; }
-      body .container-fluid .container .row .columnOne #ONE {
-        display: flex; }
-        body .container-fluid .container .row .columnOne #ONE #photo {
-          border: 1px solid #ffffff; }
-          body .container-fluid .container .row .columnOne #ONE #photo img {
-            width: 150px;
-            height: auto;
-            box-shadow: 1px 2px 3px 4px #9f9f9f; }
-        body .container-fluid .container .row .columnOne #ONE #name {
-          font-family: Helvetica,sans-serif;
-          color: #b5b5b5;
-          text-align: center;
-          margin-top: 5em; }
-      body .container-fluid .container .row .columnOne #prez {
-        height: 250px; }
-        body .container-fluid .container .row .columnOne #prez p {
-          padding-top: 20px;
-          text-align: justify; }
-      body .container-fluid .container .row .columnOne #skills {
-        height: 300px; }
-        body .container-fluid .container .row .columnOne #skills p {
-          font-weight: bold;
-          margin-top: 10px; }
-        body .container-fluid .container .row .columnOne #skills .skill {
-          text-align: center;
-          padding-right: 20px;
-          line-height: 30px;
-          color: white;
-          border-radius: 20px; }
-        body .container-fluid .container .row .columnOne #skills .html {
-          width: 90%;
-          background-color: #8e8e8e; }
-        body .container-fluid .container .row .columnOne #skills .css {
-          width: 50%;
-          background-color: #8e8e8e; }
-        body .container-fluid .container .row .columnOne #skills .js {
-          width: 30%;
-          background-color: #8e8e8e; }
-      body .container-fluid .container .row .columnOne #info {
-        height: 200px; }
-    body .container-fluid .container .row .columnTwo {
-      width: 70%;
-      box-shadow: 1px 2px 3px 4px #F1F1F1;
+  body div + div {
+    padding-bottom: 1em; }
+  body .container-fluid .container .columnOne {
+    float: left;
+    height: auto;
+    margin-right: 2em;
+    box-shadow: 1px 2px 3px 4px #F1F1F1;
+    /** Classes communes **/
+    /** Cas par cas **/ }
+    body .container-fluid .container .columnOne .strip {
+      width: 100%;
+      height: 50px;
+      background: #e4e4e4;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 1em;
+      padding-top: 10px; }
+    body .container-fluid .container .columnOne .content .container {
+      width: 100%;
+      background-color: #ddd; }
+    body .container-fluid .container .columnOne #ONE {
       display: flex; }
+      body .container-fluid .container .columnOne #ONE #photo {
+        border: 1px solid #ffffff; }
+        body .container-fluid .container .columnOne #ONE #photo img {
+          width: 150px;
+          height: auto;
+          box-shadow: 1px 2px 3px 4px #9f9f9f; }
+      body .container-fluid .container .columnOne #ONE #name {
+        font-family: Helvetica,sans-serif;
+        color: #b5b5b5;
+        text-align: center;
+        margin-top: 5em; }
+    body .container-fluid .container .columnOne #prez {
+      height: 250px; }
+      body .container-fluid .container .columnOne #prez p {
+        padding-top: 20px;
+        text-align: justify; }
+    body .container-fluid .container .columnOne #skills {
+      height: 300px; }
+      body .container-fluid .container .columnOne #skills p {
+        font-weight: bold;
+        margin-top: 10px; }
+      body .container-fluid .container .columnOne #skills .skill {
+        text-align: center;
+        padding-right: 20px;
+        line-height: 30px;
+        color: white;
+        border-radius: 20px; }
+      body .container-fluid .container .columnOne #skills .html {
+        width: 90%;
+        background-color: #8e8e8e; }
+      body .container-fluid .container .columnOne #skills .css {
+        width: 50%;
+        background-color: #8e8e8e; }
+      body .container-fluid .container .columnOne #skills .js {
+        width: 30%;
+        background-color: #8e8e8e; }
+    body .container-fluid .container .columnOne #info {
+      height: 200px; }
+  body .container-fluid .container .columnTwo {
+    width: 70%;
+    height: 100px;
+    box-shadow: 1px 2px 3px 4px #F1F1F1;
+    display: flex;
+    float: right; }
 
 /*# sourceMappingURL=style_cv.css.map */
