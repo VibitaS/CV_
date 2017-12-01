@@ -85,11 +85,11 @@ body {
       body .container-fluid .container .columnOne #hobbies {
         height: 100px;
         margin-bottom: 1em; }
-        body .container-fluid .container .columnOne #hobbies .content {
+        body .container-fluid .container .columnOne #hobbies .content .hobby {
           display: flex;
-          padding-left: 4em;
-          padding-top: 1em; }
-          body .container-fluid .container .columnOne #hobbies .content img {
+          padding-top: 1em;
+          padding-left: 4em; }
+          body .container-fluid .container .columnOne #hobbies .content .hobby img {
             margin-right: 30px; }
     body .container-fluid .container .columnOne:hover {
       box-shadow: 0 20px 20px #8c8c8c;

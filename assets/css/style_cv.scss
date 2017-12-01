@@ -102,11 +102,13 @@ body{
           height: 100px;
           margin-bottom: 1em;
           .content{
-            display: flex;
-            padding-left: 4em;
-            padding-top: 1em;
-            img{
-              margin-right: 30px;
+            .hobby{
+              display: flex;
+              padding-top: 1em;
+              padding-left: 4em;
+              img{
+                margin-right: 30px;
+              }
             }
           }
         }

@@ -38,6 +38,9 @@ html {
     font-size: 16px;
     line-height: 18px;
   }
+  .hobby{
+    padding-left: 0 !important;
+  }
   .columnTwo{
     margin-top:1em;
     margin-bottom:1em;
@@ -53,7 +56,10 @@ html {
     font-size: 14px;
   }
   ul.socialicons{
-    margin-left: 0;
+    margin-left: 35px !important;
+  }
+  ul.socialicons li{
+      margin-top: 5px;
   }
 }
 
