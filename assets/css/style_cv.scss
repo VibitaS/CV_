@@ -11,133 +11,131 @@ body{
   background-color: $bgcolor;
   .container-fluid{
     .container{
-        .columnOne{
-          float: left;
-          box-shadow:1px 2px 3px 4px #F1F1F1;
-          margin-bottom:20px;
-          /** Classes communes **/
-          .strip{
-            width: 100%;
-            height: 50px;
-            background: #e4e4e4;
-            text-align: center;
-            color: white;
-            font-family: "Akkurat Bold",Helvetica,sans-serif;
-            font-weight: bold;
-            font-size: 20px;
-            margin-top: 1em;
-            padding-top: 10px;
-          }
-          .content{
-            .container {
-              width: 100%;
-              background-color: #ddd;
-            }
-          }
-          /** Cas par cas **/
-          #ONE{
-            display: flex;
-            #photo{
-              border: 1px solid $bgcolor;
-              img{
-                width: 150px;
-                height: auto;
-                box-shadow:1px 2px 3px 4px #9f9f9f;
-                margin-top: 10px;
-              }
-            }
-            #name{
-              font-family: "Akkurat",Helvetica,sans-serif;
-              color: #b5b5b5;
-              text-align: center;
-              margin-top: 5em;
-            }
-          }
-          #prez{
-            height: 250px;
-            p{
-              padding-top: 20px;
-              text-align: justify;
-            }
-          }
-          #skills{
-            height: 300px;
-            p{
-              font-weight: bold;
-              margin-top: 10px;
-            }
-            .skill {
-              text-align: center;
-              padding-right: 20px;
-              line-height: 30px;
-              color: white;
-              border-radius: 20px;
-            }
-            .html {
-              width: 80%;
-              background-color: #8e8e8e;
-            }
-            .css {
-              width: 50%;
-              background-color: #8e8e8e;
-            }
-            .js {
-              width: 30%;
-              background-color: #8e8e8e;
-            }
-          }
-          #info{
-            height: 200px;
-            .content .infos{
-              margin-top: 10px;
-              display: flex;
-              height: 40px;
-              p{
-                padding-left: 10px;
-                font-size: 13px;
-              }
-            }
-          }
-        }
-        .columnOne:hover{
-          box-shadow: 0 20px 20px #8c8c8c;
-          transition: all .3s ease-out;
-        }
-        .columnTwo{
+      .columnOne{
+        float: left;
+        box-shadow:1px 2px 3px 4px #F1F1F1;
+        margin-bottom:20px;
+        /** Classes communes **/
+        .strip{
           width: 100%;
-          height: auto;
-          box-shadow:1px 2px 3px 4px #F1F1F1;
-          float: right;
-          margin-bottom: 1em;
+          height: 50px;
+          background: #e4e4e4;
+          text-align: center;
+          color: white;
+          font-family: "Akkurat Bold",Helvetica,sans-serif;
+          font-weight: bold;
+          font-size: 20px;
+          margin-top: 1em;
+          padding-top: 10px;
         }
-        .columnTwo:hover{
-          box-shadow: 0 20px 20px #8c8c8c;
-          transition: all .2s ease-out;
-        }
-        .experience{
-          .title{
+        .content{
+          .container {
             width: 100%;
-            display: flex;
-            h2{
-              margin-top: 0.8em;
-              margin-left: 1em;
+            background-color: #ddd;
+          }
+        }
+        /** Cas par cas **/
+        #ONE{
+          display: flex;
+          #photo{
+            border: 1px solid $bgcolor;
+            img{
+              width: 150px;
+              height: auto;
+              box-shadow:1px 2px 3px 4px #9f9f9f;
+              margin-top: 10px;
             }
           }
-          .details{
-            position: relative;
-            h5{
-              color: #000002;
-              font-family: "Akkurat Regular",sans-serif;
-            }
+          #name{
+            font-family: "Akkurat",Helvetica,sans-serif;
+            color: #b5b5b5;
+            text-align: center;
+            margin-top: 5em;
+          }
+        }
+        #prez{
+          height: 250px;
+          p{
+            padding-top: 20px;
+            text-align: justify;
+          }
+        }
+        #skills{
+          height: 300px;
+          p{
+            font-weight: bold;
+            margin-top: 10px;
+          }
+          .skill {
+            text-align: center;
+            padding-right: 20px;
+            line-height: 30px;
+            color: white;
+            border-radius: 20px;
+          }
+          .html {
+            width: 80%;
+            background-color: #8e8e8e;
+          }
+          .css {
+            width: 50%;
+            background-color: #8e8e8e;
+          }
+          .js {
+            width: 30%;
+            background-color: #8e8e8e;
+          }
+        }
+        #info{
+          height: 200px;
+          .content .infos{
+            margin-top: 10px;
+            display: flex;
+            height: 40px;
             p{
-              margin:0;
-            }
-            p:last-child{
-              font-size: 12px;
-              color: #a3a3a3;
+              padding-left: 10px;
+              font-size: 13px;
             }
           }
         }
+      }
+      .columnOne:hover{
+        box-shadow: 0 20px 20px #8c8c8c;
+        transition: all .3s ease-out;
+      }
+      .columnTwo{
+        width: 100%;
+        height: auto;
+        box-shadow:1px 2px 3px 4px #F1F1F1;
+        float: right;
+        margin-bottom: 1em;
+      }
+      .columnTwo:hover{
+        box-shadow: 0 20px 20px #8c8c8c;
+        transition: all .2s ease-out;
+      }
+      .title{
+        width: 100%;
+        display: flex;
+        h2{
+          margin-top: 0.8em;
+          margin-left: 1em;
+        }
+      }
+      .details{
+        position: relative;
+        h5{
+          color: #000002;
+          font-family: "Akkurat Regular",sans-serif;
+        }
+        p{
+          margin:0;
+        }
+        p:last-child{
+          font-size: 12px;
+          color: #a3a3a3;
+        }
+      }
     }
   }
 }

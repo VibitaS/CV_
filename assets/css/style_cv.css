@@ -92,20 +92,20 @@ body {
   body .container-fluid .container .columnTwo:hover {
     box-shadow: 0 20px 20px #8c8c8c;
     transition: all .2s ease-out; }
-  body .container-fluid .container .experience .title {
+  body .container-fluid .container .title {
     width: 100%;
     display: flex; }
-    body .container-fluid .container .experience .title h2 {
+    body .container-fluid .container .title h2 {
       margin-top: 0.8em;
       margin-left: 1em; }
-  body .container-fluid .container .experience .details {
+  body .container-fluid .container .details {
     position: relative; }
-    body .container-fluid .container .experience .details h5 {
+    body .container-fluid .container .details h5 {
       color: #000002;
       font-family: "Akkurat Regular",sans-serif; }
-    body .container-fluid .container .experience .details p {
+    body .container-fluid .container .details p {
       margin: 0; }
-    body .container-fluid .container .experience .details p:last-child {
+    body .container-fluid .container .details p:last-child {
       font-size: 12px;
       color: #a3a3a3; }
 
