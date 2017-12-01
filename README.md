@@ -1,4 +1,6 @@
-TP_CV
+Onepage CV de SAGUERRE Vibita
 
 Création d'une onepage pour mettre en page un CV.
-Utilisation des acquis vus en cours d'HTML&CSS.
+
+Pour le CSS général : style_cv.css[style_cv.scss]
+Pour le CSS responsive : bootstrap-grid.css
