@@ -18,7 +18,7 @@ body{
           height: auto;
           margin-right: 2em;
           box-shadow:1px 2px 3px 4px #F1F1F1;
-          /** Commun classes **/
+          /** Classes communes **/
           .strip{
             width: 100%;
             height: 50px;
@@ -32,11 +32,11 @@ body{
           }
           .content{
             .container {
-              width: 100%; /* Full width */
-              background-color: #ddd; /* Grey background */
+              width: 100%;
+              background-color: #ddd;
             }
           }
-          /** Case by case **/
+          /** Cas par cas **/
           #ONE{
             display: flex;
             #photo{
@@ -55,7 +55,11 @@ body{
             }
           }
           #prez{
-            height: 200px;
+            height: 250px;
+            p{
+              padding-top: 20px;
+              text-align: justify;
+            }
           }
           #skills{
             height: 300px;
