@@ -42,6 +42,16 @@ html {
     margin-top:1em;
     margin-bottom:1em;
   }
+  .experience, .title img{
+    width: 50px;
+    height: auto;
+  }
+  .experience, .title h2{
+    font-size: 1.5rem;
+  }
+  .exeprience, .details p{
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 576px) {
