@@ -65,13 +65,13 @@ html {
 
 @media (max-width: 576px) {
   .container {
-    max-width: 540px;
+    mmax-width: 320px;
   }
 }
 
 @media (max-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 320px;
   }
 }
 
