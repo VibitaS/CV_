@@ -52,6 +52,9 @@ html {
   .exeprience, .details p{
     font-size: 14px;
   }
+  ul.socialicons{
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 576px) {

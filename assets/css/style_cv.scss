@@ -148,6 +148,29 @@ body{
           color: #a3a3a3;
         }
       }
+      /** Sprites **/
+      .socialN{
+        text-align: center;
+        ul.socialicons {
+        	list-style: none;
+        	overflow: auto;
+        	margin-left: 200px;
+          margin-top: 10px;
+        }
+        ul.socialicons li {
+        	width: 32px;
+        	height: 33px;
+        	padding: 0 5px 0 0;
+        	float: left;
+          margin-right: 10px;
+        }
+        ul.socialicons li a {
+        	width: 32px;
+        	height: 33px;
+        	display: block;
+        	background: url(socialSprite.png) no-repeat;
+        }
+      }
     }
   }
 }

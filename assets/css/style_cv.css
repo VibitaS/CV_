@@ -12,110 +12,130 @@ body {
   width: 100%;
   height: 100%;
   background-color: #ffffff; }
-  body .container-fluid .container .columnOne {
-    float: left;
-    box-shadow: 1px 2px 3px 4px #F1F1F1;
-    margin-bottom: 1em;
-    /** Classes communes **/
-    /** Cas par cas **/ }
-    body .container-fluid .container .columnOne .strip {
-      width: 100%;
-      height: 50px;
-      background: #e4e4e4;
-      text-align: center;
-      color: white;
-      font-family: "Akkurat Bold",Helvetica,sans-serif;
-      font-weight: bold;
-      font-size: 20px;
-      margin-top: 1em;
-      padding-top: 10px; }
-    body .container-fluid .container .columnOne .content .container {
-      width: 100%;
-      background-color: #ddd; }
-    body .container-fluid .container .columnOne #ONE {
-      display: flex; }
-      body .container-fluid .container .columnOne #ONE #photo {
-        border: 1px solid #ffffff; }
-        body .container-fluid .container .columnOne #ONE #photo img {
-          width: 150px;
-          height: auto;
-          box-shadow: 1px 2px 3px 4px #9f9f9f;
-          margin-top: 10px; }
-      body .container-fluid .container .columnOne #ONE #name {
-        font-family: "Akkurat",Helvetica,sans-serif;
-        color: #b5b5b5;
+  body .container-fluid .container {
+    /** Sprites **/ }
+    body .container-fluid .container .columnOne {
+      float: left;
+      box-shadow: 1px 2px 3px 4px #F1F1F1;
+      margin-bottom: 1em;
+      /** Classes communes **/
+      /** Cas par cas **/ }
+      body .container-fluid .container .columnOne .strip {
+        width: 100%;
+        height: 50px;
+        background: #e4e4e4;
         text-align: center;
-        margin-top: 5em; }
-    body .container-fluid .container .columnOne #prez {
-      height: 250px; }
-      body .container-fluid .container .columnOne #prez p {
-        padding-top: 20px;
-        text-align: justify; }
-    body .container-fluid .container .columnOne #skills {
-      height: 300px; }
-      body .container-fluid .container .columnOne #skills p {
-        font-weight: bold;
-        margin-top: 10px; }
-      body .container-fluid .container .columnOne #skills .skill {
-        text-align: center;
-        padding-right: 20px;
-        line-height: 30px;
         color: white;
-        border-radius: 20px; }
-      body .container-fluid .container .columnOne #skills .html {
-        width: 80%;
-        background-color: #8e8e8e; }
-      body .container-fluid .container .columnOne #skills .css {
-        width: 50%;
-        background-color: #8e8e8e; }
-      body .container-fluid .container .columnOne #skills .js {
-        width: 30%;
-        background-color: #8e8e8e; }
-    body .container-fluid .container .columnOne #info {
-      height: 200px; }
-      body .container-fluid .container .columnOne #info .content .infos {
-        margin-top: 10px;
-        display: flex;
-        height: 40px; }
-        body .container-fluid .container .columnOne #info .content .infos p {
-          padding-left: 10px;
-          font-size: 13px; }
-    body .container-fluid .container .columnOne #hobbies {
-      height: 100px;
+        font-family: "Akkurat Bold",Helvetica,sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 1em;
+        padding-top: 10px; }
+      body .container-fluid .container .columnOne .content .container {
+        width: 100%;
+        background-color: #ddd; }
+      body .container-fluid .container .columnOne #ONE {
+        display: flex; }
+        body .container-fluid .container .columnOne #ONE #photo {
+          border: 1px solid #ffffff; }
+          body .container-fluid .container .columnOne #ONE #photo img {
+            width: 150px;
+            height: auto;
+            box-shadow: 1px 2px 3px 4px #9f9f9f;
+            margin-top: 10px; }
+        body .container-fluid .container .columnOne #ONE #name {
+          font-family: "Akkurat",Helvetica,sans-serif;
+          color: #b5b5b5;
+          text-align: center;
+          margin-top: 5em; }
+      body .container-fluid .container .columnOne #prez {
+        height: 250px; }
+        body .container-fluid .container .columnOne #prez p {
+          padding-top: 20px;
+          text-align: justify; }
+      body .container-fluid .container .columnOne #skills {
+        height: 300px; }
+        body .container-fluid .container .columnOne #skills p {
+          font-weight: bold;
+          margin-top: 10px; }
+        body .container-fluid .container .columnOne #skills .skill {
+          text-align: center;
+          padding-right: 20px;
+          line-height: 30px;
+          color: white;
+          border-radius: 20px; }
+        body .container-fluid .container .columnOne #skills .html {
+          width: 80%;
+          background-color: #8e8e8e; }
+        body .container-fluid .container .columnOne #skills .css {
+          width: 50%;
+          background-color: #8e8e8e; }
+        body .container-fluid .container .columnOne #skills .js {
+          width: 30%;
+          background-color: #8e8e8e; }
+      body .container-fluid .container .columnOne #info {
+        height: 200px; }
+        body .container-fluid .container .columnOne #info .content .infos {
+          margin-top: 10px;
+          display: flex;
+          height: 40px; }
+          body .container-fluid .container .columnOne #info .content .infos p {
+            padding-left: 10px;
+            font-size: 13px; }
+      body .container-fluid .container .columnOne #hobbies {
+        height: 100px;
+        margin-bottom: 1em; }
+        body .container-fluid .container .columnOne #hobbies .content {
+          display: flex;
+          padding-left: 4em;
+          padding-top: 1em; }
+          body .container-fluid .container .columnOne #hobbies .content img {
+            margin-right: 30px; }
+    body .container-fluid .container .columnOne:hover {
+      box-shadow: 0 20px 20px #8c8c8c;
+      transition: all .3s ease-out; }
+    body .container-fluid .container .columnTwo {
+      width: 100%;
+      height: auto;
+      box-shadow: 1px 2px 3px 4px #F1F1F1;
+      float: right;
       margin-bottom: 1em; }
-      body .container-fluid .container .columnOne #hobbies .content {
-        display: flex;
-        padding-left: 4em;
-        padding-top: 1em; }
-        body .container-fluid .container .columnOne #hobbies .content img {
-          margin-right: 30px; }
-  body .container-fluid .container .columnOne:hover {
-    box-shadow: 0 20px 20px #8c8c8c;
-    transition: all .3s ease-out; }
-  body .container-fluid .container .columnTwo {
-    width: 100%;
-    height: auto;
-    box-shadow: 1px 2px 3px 4px #F1F1F1;
-    float: right;
-    margin-bottom: 1em; }
-  body .container-fluid .container .columnTwo:hover {
-    box-shadow: 0 20px 20px #8c8c8c;
-    transition: all .2s ease-out; }
-  body .container-fluid .container .title {
-    width: 100%;
-    display: flex; }
-    body .container-fluid .container .title h2 {
-      margin-top: 0.8em;
-      margin-left: 1em; }
-  body .container-fluid .container .details {
-    position: relative; }
-    body .container-fluid .container .details h5 {
-      color: #000002;
-      font-family: "Akkurat Regular",sans-serif; }
-    body .container-fluid .container .details p {
-      margin: 0; }
-    body .container-fluid .container .details p:last-child {
-      font-size: 12px;
-      color: #a3a3a3; }
+    body .container-fluid .container .columnTwo:hover {
+      box-shadow: 0 20px 20px #8c8c8c;
+      transition: all .2s ease-out; }
+    body .container-fluid .container .title {
+      width: 100%;
+      display: flex; }
+      body .container-fluid .container .title h2 {
+        margin-top: 0.8em;
+        margin-left: 1em; }
+    body .container-fluid .container .details {
+      position: relative; }
+      body .container-fluid .container .details h5 {
+        color: #000002;
+        font-family: "Akkurat Regular",sans-serif; }
+      body .container-fluid .container .details p {
+        margin: 0; }
+      body .container-fluid .container .details p:last-child {
+        font-size: 12px;
+        color: #a3a3a3; }
+    body .container-fluid .container .socialN {
+      text-align: center; }
+      body .container-fluid .container .socialN ul.socialicons {
+        list-style: none;
+        overflow: auto;
+        margin-left: 200px;
+        margin-top: 10px; }
+      body .container-fluid .container .socialN ul.socialicons li {
+        width: 32px;
+        height: 33px;
+        padding: 0 5px 0 0;
+        float: left;
+        margin-right: 10px; }
+      body .container-fluid .container .socialN ul.socialicons li a {
+        width: 32px;
+        height: 33px;
+        display: block;
+        background: url(socialSprite.png) no-repeat; }
 
 /*# sourceMappingURL=style_cv.css.map */
