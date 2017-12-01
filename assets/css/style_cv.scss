@@ -14,7 +14,7 @@ body{
       .columnOne{
         float: left;
         box-shadow:1px 2px 3px 4px #F1F1F1;
-        margin-bottom:20px;
+        margin-bottom: 1em;
         /** Classes communes **/
         .strip{
           width: 100%;
@@ -95,6 +95,18 @@ body{
             p{
               padding-left: 10px;
               font-size: 13px;
+            }
+          }
+        }
+        #hobbies{
+          height: 100px;
+          margin-bottom: 1em;
+          .content{
+            display: flex;
+            padding-left: 4em;
+            padding-top: 1em;
+            img{
+              margin-right: 30px;
             }
           }
         }

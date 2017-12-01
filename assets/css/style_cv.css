@@ -15,7 +15,7 @@ body {
   body .container-fluid .container .columnOne {
     float: left;
     box-shadow: 1px 2px 3px 4px #F1F1F1;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
     /** Classes communes **/
     /** Cas par cas **/ }
     body .container-fluid .container .columnOne .strip {
@@ -80,6 +80,15 @@ body {
         body .container-fluid .container .columnOne #info .content .infos p {
           padding-left: 10px;
           font-size: 13px; }
+    body .container-fluid .container .columnOne #hobbies {
+      height: 100px;
+      margin-bottom: 1em; }
+      body .container-fluid .container .columnOne #hobbies .content {
+        display: flex;
+        padding-left: 4em;
+        padding-top: 1em; }
+        body .container-fluid .container .columnOne #hobbies .content img {
+          margin-right: 30px; }
   body .container-fluid .container .columnOne:hover {
     box-shadow: 0 20px 20px #8c8c8c;
     transition: all .3s ease-out; }
